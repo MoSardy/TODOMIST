@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "554614056863",
+    "firebase_url": "https://winktodo.firebaseio.com",
+    "project_id": "winktodo",
+    "storage_bucket": "winktodo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554614056863:android:dc78d8118b77ec3b",
+        "android_client_info": {
+          "package_name": "dsardy.in.winktodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554614056863-vt54sq14jjguhdc2pakijhj000ii7jp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dsardy.in.winktodo",
+            "certificate_hash": "1A6AD4CC4156B072B5188D76981B8FE119E3FB69"
+          }
+        },
+        {
+          "client_id": "554614056863-o73su4k20v3hcj21ifcatg850g2uof8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0YlLkb35u2VrBwW6DkOkko_Az4JKwuHU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554614056863-o73su4k20v3hcj21ifcatg850g2uof8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

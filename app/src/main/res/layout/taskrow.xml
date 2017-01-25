@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardBackgroundColor="?attr/colorAccent"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:padding="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8.5">
+
+            <com.uniquestudio.library.CircleCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox"
+                card_view:animation_duration="1000"
+                card_view:tick_color="@color/colorPrimary"
+                card_view:tick_width="4dp"
+                card_view:border_color="@color/colorAccent"
+                card_view:border_width="3dp"
+                card_view:background_color="@color/colorgrey"
+                android:gravity="start" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewtitle"
+                android:layout_margin="5dp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/black"
+                android:background="@drawable/roundbgwhite"
+                android:textSize="16sp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:elevation="3dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right">
+
+                <TextView
+                    android:text="Swipe out to remove this task, "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewguide"
+                    android:layout_margin="5dp"
+                    android:textAlignment="textEnd"
+                    android:textStyle="normal|bold"
+                    android:textSize="10sp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/black"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewAgo"
+                    android:layout_margin="5dp"
+                    android:textAlignment="textEnd"
+                    android:textStyle="normal|bold"
+                    android:textSize="10sp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
